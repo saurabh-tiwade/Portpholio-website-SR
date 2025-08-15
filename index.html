@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Tiwade - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Saurabh Tiwade</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="waves-container">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </div>
+        <div class="particles-container" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Saurabh Tiwade</span>
+                </h1>
+                <p class="hero-subtitle">Frontend Developer & Lifelong Learner</p>
+                <p class="hero-description">
+                    Passionate about creating beautiful, responsive web experiences with modern technologies.
+                    Currently building my skills and showcasing my journey through certifications and projects.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#certificates" class="btn btn-primary">View Certificates</a>
+                    <a href="#portfolio" class="btn btn-secondary">My Work</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section certificates-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Certificates</h2>
+                <p class="section-subtitle">A showcase of my learning journey and achievements</p>
+                <div class="certificate-counter">
+                    <span class="counter-number" data-target="45">0</span>
+                    <span class="counter-text">Certificates Earned</span>
+                </div>
+            </div>
+
+            <div class="certificates-controls">
+                <div class="search-container">
+                    <input type="text" id="certificateSearch" placeholder="Search certificates..." class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <div class="filter-container">
+    <select id="categoryFilter" class="category-filter">
+        <option value="all">All Categories</option>
+        </select>
+</div>
+
+            <div class="certificates-grid" id="certificatesGrid">
+                </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">About me, my skills, and projects I've worked on</p>
+            </div>
+
+           <!-- About Me -->
+            <div class="portfolio-content">
+                <div class="about-section">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>About Me</h3>
+                            <p>
+      I’m <strong class="highlight">Saurabh Tiwade</strong> — a 
+      <strong>Store Manager</strong> at 
+      <em>J.M. Patel College, Bhandara</em> and a lifelong learner with a deep curiosity for 
+      <strong>technology</strong>, <strong>design</strong>, and <strong>communication</strong>.
+    </p>
+    <p>
+      While I currently manage operations in an academic environment, I’m also pursuing my 
+      <strong>M.A. in English</strong>, sharpening my skills in analysis, storytelling, and clear communication. 
+      Outside of my professional role, I’m teaching myself 
+      <strong>coding</strong> and <strong>web development</strong>, transforming ideas into interactive, visually appealing projects like this portfolio you’re exploring.
+    </p>
+    <p>
+      I believe in blending creativity with structure — whether it’s organizing resources at work, designing an elegant user interface, or finding smarter ways to get things done. 
+      My journey is about <strong>continuous growth</strong>: learning new skills, exploring fresh challenges, and creating work that’s both functional and inspiring.
+    </p>
+    <p>
+      If you’re here, you’re already part of that journey — <strong>welcome!</strong>
+    </p>
+                        </div>
+                        <div class="about-image">
+       <img src="assets/images/profile.jpg" alt="Saurabh Tiwade" class="profile-image">
+   </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                       
+
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span>Figma</span>
+                        </div>
+                        </div>
+                </div>
+
+                <div class="projects-section">
+                    <h3>Featured Projects</h3>
+                    <div class="projects-grid">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and discuss opportunities</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>saurabhtiwade1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Mumbai, Maharashtra, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Saurabh Tiwade. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
