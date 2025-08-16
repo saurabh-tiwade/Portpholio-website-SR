@@ -120,6 +120,8 @@ function getCertificatesData() {
         { title: "Tally", issuer: "MKCL", category: "mkcl", date: "2021", image: "assets/Certificates/mkcl/Tally_marksheet.jpg" },
         
         // College (15)
+        { title: "Degree BA", issuer: "College", category: "college", date: "2023", image: "assets/Certificates/college/degree-ba.jpg" },
+
         { title: "3-Day Soft Skills Development Workshop", issuer: "College", category: "college", date: "2024", image: "assets/Certificates/college/3-day-soft-skills-development-workshop.png" },
         { title: "Certificate of Granthpal Din 2021", issuer: "College", category: "college", date: "2021", image: "assets/Certificates/college/certificate-of-granthpal-din-2021.png" },
         { title: "Basic Electronics", issuer: "College", category:"college", date: "2023", image: "assets/Certificates/college/basic-electronics.png"},
@@ -343,4 +345,5 @@ function animateCounter() {
         }
         counter.textContent = Math.floor(current);
     }, 20);
+
 }
