@@ -118,9 +118,14 @@ function getCertificatesData() {
         { title: "MS-CIT", issuer: "MKCL", category: "mkcl", date: "2018", image: "assets/Certificates/mkcl/MSCIT.jpg" },
         { title: "Photo Editing", issuer: "MKCL", category: "mkcl", date: "2021", image: "assets/Certificates/mkcl/Photo Editing Marksheet.jpg" },
         { title: "Tally", issuer: "MKCL", category: "mkcl", date: "2021", image: "assets/Certificates/mkcl/Tally_marksheet.jpg" },
+        { title: "Financial Accounting using Tally Prime", issuer: "MKCL", category: "mkcl", date: "2021", image: "assets/Certificates/mkcl/tally.jpg" },
+
         
         // College (15)
+        
         { title: "Degree BA", issuer: "College", category: "college", date: "2023", image: "assets/Certificates/college/degree-ba.jpg" },
+        { title: "SSC Diploma", issuer: "College", category: "college", date: "2018", image: "assets/Certificates/college/ssc-diploma.jpg" },
+
 
         { title: "3-Day Soft Skills Development Workshop", issuer: "College", category: "college", date: "2024", image: "assets/Certificates/college/3-day-soft-skills-development-workshop.png" },
         { title: "Certificate of Granthpal Din 2021", issuer: "College", category: "college", date: "2021", image: "assets/Certificates/college/certificate-of-granthpal-din-2021.png" },
@@ -347,3 +352,4 @@ function animateCounter() {
     }, 20);
 
 }
+
