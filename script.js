@@ -144,33 +144,34 @@ function getCertificatesData() {
         { title: "World Hindi day Quiz", issuer: "College", category:"college", date: "2022", image: "assets/Certificates/college/world-hindi-day-2022-quiz.png"},
 
         // HP Life (27)
-        { title: "3D Printing", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/3d-printing.png" },
-        { title: "Agile Project Management", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/agile-project-management.png" },
-        { title: "AI for Beginners", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/ai-for-beginners.png" },
-        { title: "AI for Business Professionals", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/ai-for-business-professionals.png" },
-        { title: "Business Communications", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/business-communications.png" },
-        { title: "Business Email", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/business-email.png" },
-        { title: "Circular Economy", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/circular-economy.png" },
-        { title: "Customer Experience", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/customer-experience.png" },
-        { title: "Customer Relationship Management", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/customer-relationship-management.png" },
-        { title: "Data Science and Analytics", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/data-science-and-analytics.png" },
-        { title: "Design Thinking", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/design-thinking.png" },
-        { title: "Effective Business Websites", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/effective-business-websites.png" },
-        { title: "Effective Leadership", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/effective-leadership.png" },
-        { title: "Effective Presentations", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/effective-presentation.png" },
-        { title: "Growth Engine for Your Business", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/growth-engine-for-your-business.png" },
-        { title: "Introduction to Cybersecurity Awareness", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/introduction-to-cybersecurity-awareness.png" },
-        { title: "Introduction to Digital Business Skills", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/introduction-to-digital-business-skills.png" },
-        { title: "Inventory Management", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/inventory-management.png" },
-        { title: "IT for Business Success", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/it-for-business-success.png" },
-        { title: "Marketing Benefits vs. Features", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/marketing-benefits-features.png" },
-        { title: "Presenting Data", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/presenting-data.png" },
-        { title: "Resume Writing and Job Interviewing", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/resume-writing-job-interview.png" },
-        { title: "Social Entrepreneurship", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/social-entrepreneurship.png" },
-        { title: "Social Media Marketing", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/social-media-marketing.png" },
-        { title: "Starting a Small Business", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/starting-a-business.png" },
-        { title: "Strategic Planning", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/strategic-planning.png" },
-        { title: "Success Mindset", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/success-mindset.png" },
+        { title: "Data Science and Analytics", issuer: "HP Life", category: "hp-life", date: "8/1/2025", image: "assets/Certificates/hp-life/data-science-and-analytics.png" },
+        { title: "Introduction to Cybersecurity Awareness", issuer: "HP Life", category: "hp-life", date: "8/2/2025", image: "assets/Certificates/hp-life/introduction-to-cybersecurity-awareness.png" },
+        { title: "Inventory Management", issuer: "HP Life", category: "hp-life", date: "8/2/2025", image: "assets/Certificates/hp-life/inventory-management.png" },
+        { title: "AI for Beginners", issuer: "HP Life", category: "hp-life", date: "8/3/2025", image: "assets/Certificates/hp-life/ai-for-beginners.png" },
+        { title: "AI for Business Professionals", issuer: "HP Life", category: "hp-life", date: "8/4/2025", image: "assets/Certificates/hp-life/ai-for-business-professionals.png" },
+        { title: "IT for Business Success", issuer: "HP Life", category: "hp-life", date: "8/3/2025", image: "assets/Certificates/hp-life/it-for-business-success.png" },
+        { title: "Customer Relationship Management", issuer: "HP Life", category: "hp-life", date: "8/4/2025", image: "assets/Certificates/hp-life/customer-relationship-management.png" },
+        { title: "Agile Project Management", issuer: "HP Life", category: "hp-life", date: "8/7/2025", image: "assets/Certificates/hp-life/agile-project-management.png" },
+        { title: "3D Printing", issuer: "HP Life", category: "hp-life", date: "8/8/2025", image: "assets/Certificates/hp-life/3d-printing.png" },
+        { title: "Introduction to Digital Business Skills", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/introduction-to-digital-business-skills.png" },
+        { title: "Social Media Marketing", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/social-media-marketing.png" },
+        { title: "Customer Experience", issuer: "HP Life", category: "hp-life", date: "8/5/2025", image: "assets/Certificates/hp-life/customer-experience.png" },
+        { title: "Effective Business Websites", issuer: "HP Life", category: "hp-life", date: "8/4/2025", image: "assets/Certificates/hp-life/effective-business-websites.png" },
+        { title: "Design Thinking", issuer: "HP Life", category: "hp-life", date: "8/5/2025", image: "assets/Certificates/hp-life/design-thinking.png" },
+        { title: "Effective Presentations", issuer: "HP Life", category: "hp-life", date: "8/3/2025", image: "assets/Certificates/hp-life/effective-presentation.png" },
+        { title: "Presenting Data", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/presenting-data.png" },
+        { title: "Effective Leadership", issuer: "HP Life", category: "hp-life", date: "8/7/2025", image: "assets/Certificates/hp-life/effective-leadership.png" },
+        { title: "Business Communications", issuer: "HP Life", category: "hp-life", date: "8/7/2025", image: "assets/Certificates/hp-life/business-communications.png" },
+        { title: "Business Email", issuer: "HP Life", category: "hp-life", date: "8/3/2025", image: "assets/Certificates/hp-life/business-email.png" },
+        { title: "Growth Engine for Your Business", issuer: "HP Life", category: "hp-life", date: "8/8/2025", image: "assets/Certificates/hp-life/growth-engine-for-your-business.png" },
+        { title: "Strategic Planning", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/strategic-planning.png" },
+        { title: "Social Entrepreneurship", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/social-entrepreneurship.png" },
+
+        { title: "Circular Economy", issuer: "HP Life", category: "hp-life", date: "8/7/2025", image: "assets/Certificates/hp-life/circular-economy.png" },
+        { title: "Marketing Benefits vs. Features", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/marketing-benefits-features.png" },
+        { title: "Resume Writing and Job Interviewing", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/resume-writing-job-interview.png" },
+        { title: "Starting a Small Business", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/starting-a-business.png" },
+        { title: "Success Mindset", issuer: "HP Life", category: "hp-life", date: "2025", image: "assets/Certificates/hp-life/success-mindset.png" },
         
         // My Gov (31)
         
@@ -370,6 +371,7 @@ function animateCounter() {
     }, 20);
 
 }
+
 
 
 
