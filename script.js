@@ -173,6 +173,22 @@ function getCertificatesData() {
         { title: "Success Mindset", issuer: "HP Life", category: "hp-life", date: "N/A", image: "assets/Certificates/hp-life/success-mindset.png" },
         
         // My Gov (31)
+        
+       
+        { title: "National Space Day - ISRO", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/isro.jpg" },
+      
+        { title: "Fit India- National Sports Day", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/sports-day.jpg" },
+       
+        { title: "Financial Awareness Quiz", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/financial-awareness.jpg" },
+
+        { title: "Decoding Indian Diplomacy", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/diplomacy.jpg" },
+
+        { title: "WDRA Awareness Quiz", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/wdra.jpg" },
+
+        { title: "Senior Citizens' Welfare", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/senior-citizens-welfare.jpg" },
+
+        { title: "UP International Trade Show", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/up-trade-show.jpg" },
+
         { title: "Dekho Apna Desh Webinar - Agra", issuer: "My Gov", category: "my-gov", date: "N/A", image: "assets/Certificates/my-gov/Agra.jpg" },
         { title: "Dekho Apna Desh Webinar - Birding in India", issuer: "My Gov", category: "my-gov", date: "N/A", image: "assets/Certificates/my-gov/Birding in india.jpg" },
         { title: "Dekho Apna Desh Webinar - Buddhist Circuit by Train", issuer: "My Gov", category: "my-gov", date: "N/A", image: "assets/Certificates/my-gov/BUDDHIST CIRCUIT BY TRAIN.jpg" },
@@ -352,4 +368,5 @@ function animateCounter() {
     }, 20);
 
 }
+
 
