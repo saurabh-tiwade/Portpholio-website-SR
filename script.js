@@ -189,6 +189,8 @@ function getCertificatesData() {
 
         { title: "UP International Trade Show", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/up-trade-show.jpg" },
 
+        { title: "World No Tobacco Day  ", issuer: "My Gov", category: "my-gov", date: "2025", image: "assets/Certificates/my-gov/no-smoking.jpg" },
+
         { title: "Dekho Apna Desh Webinar - Agra", issuer: "My Gov", category: "my-gov", date: "N/A", image: "assets/Certificates/my-gov/Agra.jpg" },
         { title: "Dekho Apna Desh Webinar - Birding in India", issuer: "My Gov", category: "my-gov", date: "N/A", image: "assets/Certificates/my-gov/Birding in india.jpg" },
         { title: "Dekho Apna Desh Webinar - Buddhist Circuit by Train", issuer: "My Gov", category: "my-gov", date: "N/A", image: "assets/Certificates/my-gov/BUDDHIST CIRCUIT BY TRAIN.jpg" },
@@ -368,5 +370,6 @@ function animateCounter() {
     }, 20);
 
 }
+
 
 
